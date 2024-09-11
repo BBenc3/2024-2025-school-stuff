@@ -1,0 +1,7 @@
+C:\Users\bbence\Documents\GitHub\2024-2025-school-stuff\Backend programozás és tesztelés\WCF_Server-01\Server\bin\Server.dll.config
+C:\Users\bbence\Documents\GitHub\2024-2025-school-stuff\Backend programozás és tesztelés\WCF_Server-01\Server\bin\Server.dll
+C:\Users\bbence\Documents\GitHub\2024-2025-school-stuff\Backend programozás és tesztelés\WCF_Server-01\Server\bin\Server.pdb
+C:\Users\bbence\Documents\GitHub\2024-2025-school-stuff\Backend programozás és tesztelés\WCF_Server-01\Server\obj\Debug\Server.csproj.AssemblyReference.cache
+C:\Users\bbence\Documents\GitHub\2024-2025-school-stuff\Backend programozás és tesztelés\WCF_Server-01\Server\obj\Debug\Server.csproj.CoreCompileInputs.cache
+C:\Users\bbence\Documents\GitHub\2024-2025-school-stuff\Backend programozás és tesztelés\WCF_Server-01\Server\obj\Debug\Server.dll
+C:\Users\bbence\Documents\GitHub\2024-2025-school-stuff\Backend programozás és tesztelés\WCF_Server-01\Server\obj\Debug\Server.pdb
