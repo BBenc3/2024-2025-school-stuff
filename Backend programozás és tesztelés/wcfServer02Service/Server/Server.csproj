@@ -117,11 +117,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Controllers\FelhasznaloController.cs" />
+    <Compile Include="Controllers\JogosultsagokController.cs" />
     <Compile Include="DataBaseManager\BaseDBManager.cs" />
     <Compile Include="DataBaseManager\IDML.cs" />
     <Compile Include="DataBaseManager\IDQL.cs" />
     <Compile Include="DataBaseManager\ISQL.cs" />
     <Compile Include="IServices\IFelhasznalokService.cs" />
+    <Compile Include="IServices\IJogosultsagokService.cs" />
     <Compile Include="Modells\Felhasznalo.cs" />
     <Compile Include="Modells\Jogosultsag.cs" />
     <Compile Include="Modells\Record.cs" />

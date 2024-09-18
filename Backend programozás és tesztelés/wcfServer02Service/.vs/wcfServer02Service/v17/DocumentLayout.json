@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\bence\\Documents\\GitHub\\2024-2025-school-stuff\\Backend programoz\u00E1s \u00E9s tesztel\u00E9s\\wcfServer02Service\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{98DFCB41-04CF-40C9-8E71-00BAF3324983}|Server\\Server.csproj|c:\\users\\bence\\documents\\github\\2024-2025-school-stuff\\backend programoz\u00E1s \u00E9s tesztel\u00E9s\\wcfserver02service\\server\\controllers\\jogosultsagokcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98DFCB41-04CF-40C9-8E71-00BAF3324983}|Server\\Server.csproj|solutionrelative:server\\controllers\\jogosultsagokcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98DFCB41-04CF-40C9-8E71-00BAF3324983}|Server\\Server.csproj|c:\\users\\bence\\documents\\github\\2024-2025-school-stuff\\backend programoz\u00E1s \u00E9s tesztel\u00E9s\\wcfserver02service\\server\\iservice1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98DFCB41-04CF-40C9-8E71-00BAF3324983}|Server\\Server.csproj|solutionrelative:server\\iservice1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98DFCB41-04CF-40C9-8E71-00BAF3324983}|Server\\Server.csproj|c:\\users\\bence\\documents\\github\\2024-2025-school-stuff\\backend programoz\u00E1s \u00E9s tesztel\u00E9s\\wcfserver02service\\server\\service1.svc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98DFCB41-04CF-40C9-8E71-00BAF3324983}|Server\\Server.csproj|solutionrelative:server\\service1.svc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98DFCB41-04CF-40C9-8E71-00BAF3324983}|Server\\Server.csproj|c:\\users\\bence\\documents\\github\\2024-2025-school-stuff\\backend programoz\u00E1s \u00E9s tesztel\u00E9s\\wcfserver02service\\server\\iservices\\ijogosultsagokservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98DFCB41-04CF-40C9-8E71-00BAF3324983}|Server\\Server.csproj|solutionrelative:server\\iservices\\ijogosultsagokservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IJogosultsagokService.cs",
+              "DocumentMoniker": "C:\\Users\\bence\\Documents\\GitHub\\2024-2025-school-stuff\\Backend programoz\u00E1s \u00E9s tesztel\u00E9s\\wcfServer02Service\\Server\\IServices\\IJogosultsagokService.cs",
+              "RelativeDocumentMoniker": "Server\\IServices\\IJogosultsagokService.cs",
+              "ToolTip": "C:\\Users\\bence\\Documents\\GitHub\\2024-2025-school-stuff\\Backend programoz\u00E1s \u00E9s tesztel\u00E9s\\wcfServer02Service\\Server\\IServices\\IJogosultsagokService.cs",
+              "RelativeToolTip": "Server\\IServices\\IJogosultsagokService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-18T20:25:39.888Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IService1.cs",
+              "DocumentMoniker": "C:\\Users\\bence\\Documents\\GitHub\\2024-2025-school-stuff\\Backend programoz\u00E1s \u00E9s tesztel\u00E9s\\wcfServer02Service\\Server\\IService1.cs",
+              "RelativeDocumentMoniker": "Server\\IService1.cs",
+              "ToolTip": "C:\\Users\\bence\\Documents\\GitHub\\2024-2025-school-stuff\\Backend programoz\u00E1s \u00E9s tesztel\u00E9s\\wcfServer02Service\\Server\\IService1.cs",
+              "RelativeToolTip": "Server\\IService1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-18T20:22:11.08Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Service1.svc.cs",
+              "DocumentMoniker": "C:\\Users\\bence\\Documents\\GitHub\\2024-2025-school-stuff\\Backend programoz\u00E1s \u00E9s tesztel\u00E9s\\wcfServer02Service\\Server\\Service1.svc.cs",
+              "RelativeDocumentMoniker": "Server\\Service1.svc.cs",
+              "ToolTip": "C:\\Users\\bence\\Documents\\GitHub\\2024-2025-school-stuff\\Backend programoz\u00E1s \u00E9s tesztel\u00E9s\\wcfServer02Service\\Server\\Service1.svc.cs",
+              "RelativeToolTip": "Server\\Service1.svc.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAAACYAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-18T20:09:28.352Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "JogosultsagokController.cs",
+              "DocumentMoniker": "C:\\Users\\bence\\Documents\\GitHub\\2024-2025-school-stuff\\Backend programoz\u00E1s \u00E9s tesztel\u00E9s\\wcfServer02Service\\Server\\Controllers\\JogosultsagokController.cs",
+              "RelativeDocumentMoniker": "Server\\Controllers\\JogosultsagokController.cs",
+              "ToolTip": "C:\\Users\\bence\\Documents\\GitHub\\2024-2025-school-stuff\\Backend programoz\u00E1s \u00E9s tesztel\u00E9s\\wcfServer02Service\\Server\\Controllers\\JogosultsagokController.cs",
+              "RelativeToolTip": "Server\\Controllers\\JogosultsagokController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-18T20:06:24.407Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
