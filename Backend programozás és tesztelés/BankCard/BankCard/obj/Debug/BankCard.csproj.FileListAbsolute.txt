@@ -1,0 +1,7 @@
+C:\Users\bence\Documents\GitHub\2024-2025-school-stuff\Backend programozás és tesztelés\BankCard\BankCard\bin\BankCard.dll.config
+C:\Users\bence\Documents\GitHub\2024-2025-school-stuff\Backend programozás és tesztelés\BankCard\BankCard\bin\BankCard.dll
+C:\Users\bence\Documents\GitHub\2024-2025-school-stuff\Backend programozás és tesztelés\BankCard\BankCard\bin\BankCard.pdb
+C:\Users\bence\Documents\GitHub\2024-2025-school-stuff\Backend programozás és tesztelés\BankCard\BankCard\obj\Debug\BankCard.csproj.AssemblyReference.cache
+C:\Users\bence\Documents\GitHub\2024-2025-school-stuff\Backend programozás és tesztelés\BankCard\BankCard\obj\Debug\BankCard.csproj.CoreCompileInputs.cache
+C:\Users\bence\Documents\GitHub\2024-2025-school-stuff\Backend programozás és tesztelés\BankCard\BankCard\obj\Debug\BankCard.dll
+C:\Users\bence\Documents\GitHub\2024-2025-school-stuff\Backend programozás és tesztelés\BankCard\BankCard\obj\Debug\BankCard.pdb

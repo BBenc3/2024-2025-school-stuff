@@ -1,0 +1,108 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\bence\\Documents\\GitHub\\2024-2025-school-stuff\\Backend programoz\u00E1s \u00E9s tesztel\u00E9s\\BankCard\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6C712F40-69FF-41CD-9FD1-DC406D5D82AA}|BankCard\\BankCard.csproj|C:\\Users\\bence\\Documents\\GitHub\\2024-2025-school-stuff\\Backend programoz\u00E1s \u00E9s tesztel\u00E9s\\BankCard\\bankcard\\iservice1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C712F40-69FF-41CD-9FD1-DC406D5D82AA}|BankCard\\BankCard.csproj|solutionrelative:bankcard\\iservice1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C712F40-69FF-41CD-9FD1-DC406D5D82AA}|BankCard\\BankCard.csproj|C:\\Users\\bence\\Documents\\GitHub\\2024-2025-school-stuff\\Backend programoz\u00E1s \u00E9s tesztel\u00E9s\\BankCard\\bankcard\\service1.svc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C712F40-69FF-41CD-9FD1-DC406D5D82AA}|BankCard\\BankCard.csproj|solutionrelative:bankcard\\service1.svc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C712F40-69FF-41CD-9FD1-DC406D5D82AA}|BankCard\\BankCard.csproj|C:\\Users\\bence\\Documents\\GitHub\\2024-2025-school-stuff\\Backend programoz\u00E1s \u00E9s tesztel\u00E9s\\BankCard\\bankcard\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{6C712F40-69FF-41CD-9FD1-DC406D5D82AA}|BankCard\\BankCard.csproj|solutionrelative:bankcard\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15B05002-207A-4B4F-ACB9-C2E9E1692A78}|Host\\Host.csproj|c:\\users\\bence\\documents\\github\\2024-2025-school-stuff\\backend programoz\u00E1s \u00E9s tesztel\u00E9s\\bankcard\\host\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15B05002-207A-4B4F-ACB9-C2E9E1692A78}|Host\\Host.csproj|solutionrelative:host\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15B05002-207A-4B4F-ACB9-C2E9E1692A78}|Host\\Host.csproj|C:\\Users\\bence\\Documents\\GitHub\\2024-2025-school-stuff\\Backend programoz\u00E1s \u00E9s tesztel\u00E9s\\BankCard\\host\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{15B05002-207A-4B4F-ACB9-C2E9E1692A78}|Host\\Host.csproj|solutionrelative:host\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\bence\\Documents\\GitHub\\2024-2025-school-stuff\\Backend programoz\u00E1s \u00E9s tesztel\u00E9s\\BankCard\\Host\\Program.cs",
+              "RelativeDocumentMoniker": "Host\\Program.cs",
+              "ToolTip": "C:\\Users\\bence\\Documents\\GitHub\\2024-2025-school-stuff\\Backend programoz\u00E1s \u00E9s tesztel\u00E9s\\BankCard\\Host\\Program.cs",
+              "RelativeToolTip": "Host\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T18:52:20.289Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "App.config",
+              "DocumentMoniker": "C:\\Users\\bence\\Documents\\GitHub\\2024-2025-school-stuff\\Backend programoz\u00E1s \u00E9s tesztel\u00E9s\\BankCard\\Host\\App.config",
+              "RelativeDocumentMoniker": "Host\\App.config",
+              "ToolTip": "C:\\Users\\bence\\Documents\\GitHub\\2024-2025-school-stuff\\Backend programoz\u00E1s \u00E9s tesztel\u00E9s\\BankCard\\Host\\App.config",
+              "RelativeToolTip": "Host\\App.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-09-11T19:10:41.314Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Users\\bence\\Documents\\GitHub\\2024-2025-school-stuff\\Backend programoz\u00E1s \u00E9s tesztel\u00E9s\\BankCard\\BankCard\\Web.config",
+              "RelativeDocumentMoniker": "BankCard\\Web.config",
+              "ToolTip": "C:\\Users\\bence\\Documents\\GitHub\\2024-2025-school-stuff\\Backend programoz\u00E1s \u00E9s tesztel\u00E9s\\BankCard\\BankCard\\Web.config",
+              "RelativeToolTip": "BankCard\\Web.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD4AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-09-11T18:43:13.941Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "IService1.cs",
+              "DocumentMoniker": "C:\\Users\\bence\\Documents\\GitHub\\2024-2025-school-stuff\\Backend programoz\u00E1s \u00E9s tesztel\u00E9s\\BankCard\\BankCard\\IService1.cs",
+              "RelativeDocumentMoniker": "BankCard\\IService1.cs",
+              "ToolTip": "C:\\Users\\bence\\Documents\\GitHub\\2024-2025-school-stuff\\Backend programoz\u00E1s \u00E9s tesztel\u00E9s\\BankCard\\BankCard\\IService1.cs",
+              "RelativeToolTip": "BankCard\\IService1.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAAACYAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T18:46:01.354Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Service1.svc.cs",
+              "DocumentMoniker": "C:\\Users\\bence\\Documents\\GitHub\\2024-2025-school-stuff\\Backend programoz\u00E1s \u00E9s tesztel\u00E9s\\BankCard\\BankCard\\Service1.svc.cs",
+              "RelativeDocumentMoniker": "BankCard\\Service1.svc.cs",
+              "ToolTip": "C:\\Users\\bence\\Documents\\GitHub\\2024-2025-school-stuff\\Backend programoz\u00E1s \u00E9s tesztel\u00E9s\\BankCard\\BankCard\\Service1.svc.cs",
+              "RelativeToolTip": "BankCard\\Service1.svc.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABUAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T18:42:42.329Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
