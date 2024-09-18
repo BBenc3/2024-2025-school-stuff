@@ -34,7 +34,7 @@ namespace Server
             return FelhasznaloInsert(record);
         }
 
-        public List<Jogosultsag> GetJogosultsagok()
+        public List<Jogosultsag> JogosultsagokLista_CS()
         {
             return new JogosultsagokController().SELECT();
         }

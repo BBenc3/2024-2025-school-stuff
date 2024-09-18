@@ -12,6 +12,6 @@ namespace Server.IServices
     public interface IJogosultsagokService
     {
         [OperationContract]
-        List<Jogosultsag> GetJogosultsagok();
+        List<Jogosultsag> JogosultsagokLista_CS();
     }
 }
