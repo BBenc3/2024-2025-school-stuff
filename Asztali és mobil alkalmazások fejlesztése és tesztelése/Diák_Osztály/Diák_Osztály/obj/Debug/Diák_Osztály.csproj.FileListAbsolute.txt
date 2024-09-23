@@ -1,0 +1,8 @@
+C:\Users\bbence\Documents\GitHub\2024-2025-school-stuff\Asztali és mobil alkalmazások fejlesztése és tesztelése\Diák_Osztály\Diák_Osztály\bin\Debug\Diák_Osztály.exe.config
+C:\Users\bbence\Documents\GitHub\2024-2025-school-stuff\Asztali és mobil alkalmazások fejlesztése és tesztelése\Diák_Osztály\Diák_Osztály\bin\Debug\Diák_Osztály.exe
+C:\Users\bbence\Documents\GitHub\2024-2025-school-stuff\Asztali és mobil alkalmazások fejlesztése és tesztelése\Diák_Osztály\Diák_Osztály\bin\Debug\Diák_Osztály.pdb
+C:\Users\bbence\Documents\GitHub\2024-2025-school-stuff\Asztali és mobil alkalmazások fejlesztése és tesztelése\Diák_Osztály\Diák_Osztály\obj\Debug\Diák_Osztály.csproj.AssemblyReference.cache
+C:\Users\bbence\Documents\GitHub\2024-2025-school-stuff\Asztali és mobil alkalmazások fejlesztése és tesztelése\Diák_Osztály\Diák_Osztály\obj\Debug\Diák_Osztály.csproj.SuggestedBindingRedirects.cache
+C:\Users\bbence\Documents\GitHub\2024-2025-school-stuff\Asztali és mobil alkalmazások fejlesztése és tesztelése\Diák_Osztály\Diák_Osztály\obj\Debug\Diák_Osztály.csproj.CoreCompileInputs.cache
+C:\Users\bbence\Documents\GitHub\2024-2025-school-stuff\Asztali és mobil alkalmazások fejlesztése és tesztelése\Diák_Osztály\Diák_Osztály\obj\Debug\Diák_Osztály.exe
+C:\Users\bbence\Documents\GitHub\2024-2025-school-stuff\Asztali és mobil alkalmazások fejlesztése és tesztelése\Diák_Osztály\Diák_Osztály\obj\Debug\Diák_Osztály.pdb
