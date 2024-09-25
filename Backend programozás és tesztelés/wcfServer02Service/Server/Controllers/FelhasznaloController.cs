@@ -95,11 +95,61 @@ namespace Server.Controllers
         }
         public string UPDATE(Record record)
         {
-            return null;
+            try
+            {
+                Felhasznalo felhasznalo = (Felhasznalo)record;
+                MySqlCommand cmd = new MySqlCommand();
+                cmd.Connection = BaseDBManager.Connection;
+                if (record != null)
+                {
+                    
+                    cmd.Connection.Open();
+                    cmd.CommandText = $"UPDATE felhasznalo SET LoginName = \"{felhasznalo.LoginName}\", HASH = \"{felhasznalo.HASH}\", SALT = \"{felhasznalo.HASH}\", Name = \"{felhasznalo.Name}\", JogID = {felhasznalo.JogID}, AktívE = {felhasznalo.AktivE}, Email = \"{felhasznalo.Email}\", ProfileKep = \"{felhasznalo.PorfileKep}\" WHERE ID = {felhasznalo.ID}";
+                    cmd.ExecuteNonQuery();
+
+                    return "Sikeres frissítés";
+                }
+                else
+                {
+                    return "Sikertelen frissítés";
+                }
+            }
+            catch (Exception e)
+            {
+                return e.Message;
+                throw;
+            }
+            finally { Connection.Close(); }
         }
         public string DELETE(int ID)
         {
-            return null;
+            try
+            {
+                MySqlCommand cmd = new MySqlCommand();
+                cmd.Connection = BaseDBManager.Connection;
+                if (ID != null)
+                {
+
+                    cmd.Connection.Open();
+                    cmd.CommandText = $"DELETE FROM felhasznalo WHERE ID = {ID}";
+                    cmd.ExecuteNonQuery();
+
+                    return "Sikeres Törlés";
+                }
+                else
+                {
+                    return "Sikertelen Törlés!";
+                }
+            }
+            catch (Exception e)
+            {
+                return e.Message;
+                throw;
+            }
+            finally
+            {
+                Connection.Close();
+            }
         }
     }
 }

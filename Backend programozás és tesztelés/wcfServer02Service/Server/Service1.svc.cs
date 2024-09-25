@@ -12,11 +12,12 @@ namespace Server
 {
     public class Service1 : IService1
     {
+        #region FelhsznaloServices
         public List<Felhasznalo> FelhasznalokLista_CS()
         {
             List<Felhasznalo> list = new List<Felhasznalo>();
             List<Record> records = new FelhasznaloController().SELECT();
-            foreach (Record record in records)
+            foreach (Felhasznalo record in records)
             {
                 list.Add((Felhasznalo)record);
             }
@@ -33,10 +34,49 @@ namespace Server
         {
             return FelhasznaloInsert(record);
         }
-
-        public List<Jogosultsag> JogosultsagokLista_CS()
+        public string FelhasznaloUpdate(Felhasznalo felhasznalo)
         {
-            return new JogosultsagokController().SELECT();
+            return new FelhasznaloController().UPDATE(felhasznalo);
         }
+
+        public string FelhasznaloDelete(int ID)
+        {
+            return new FelhasznaloController().DELETE(ID);
+        }
+        #endregion
+
+        #region JogosultsagServices
+        public List<Jogosultsag> JogosultsagokLista()
+        {
+            List<Jogosultsag> list = new List<Jogosultsag>();
+            List<Record> records = new JogosultsagokController().SELECT();
+            foreach (Jogosultsag record in records)
+            {
+                list.Add((Jogosultsag)record);
+            }
+
+            return list;
+        }
+
+        public string JogosultsagFrissit(Jogosultsag jogosultsag)
+        {
+            return new JogosultsagokController().UPDATE(jogosultsag);
+        }
+
+        public string JogosultsagokTorol(int ID)
+        {
+            return new JogosultsagokController().DELETE(ID);
+        }
+
+        public string JogosultsagHozzaAd(Jogosultsag jogosultsag)
+        {
+            return new JogosultsagokController().INSERT(jogosultsag);
+        }
+
+        public string JogosultsagTorol(int ID)
+        {
+            return new JogosultsagokController().DELETE(ID);
+        }
+        #endregion
     }
 }

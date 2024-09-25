@@ -12,6 +12,6 @@ namespace Server
     [ServiceContract]
     public interface IService1 : IFelhasznalokService, IJogosultsagokService
     {
-
+        
     }
 }
