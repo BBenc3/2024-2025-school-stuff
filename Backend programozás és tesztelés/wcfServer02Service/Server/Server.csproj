@@ -122,8 +122,12 @@
     <Compile Include="DataBaseManager\IDML.cs" />
     <Compile Include="DataBaseManager\IDQL.cs" />
     <Compile Include="DataBaseManager\ISQL.cs" />
+    <Compile Include="DTOs\FelhasznalokNevEmail.cs" />
+    <Compile Include="DTOs\JogosultsagNevLeiras.cs" />
     <Compile Include="IServices\IFelhasznalokService.cs" />
+    <Compile Include="IServices\IFelhasznalokServiceWEB.cs" />
     <Compile Include="IServices\IJogosultsagokService.cs" />
+    <Compile Include="IServices\IJogosultsagokServiceWEB.cs" />
     <Compile Include="Modells\Felhasznalo.cs" />
     <Compile Include="Modells\Jogosultsag.cs" />
     <Compile Include="Modells\Record.cs" />

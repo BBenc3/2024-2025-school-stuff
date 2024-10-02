@@ -10,7 +10,7 @@ using System.Text;
 namespace Server
 {
     [ServiceContract]
-    public interface IService1 : IFelhasznalokService, IJogosultsagokService
+    public interface IService1 : IFelhasznalokService, IJogosultsagokService, IFelhasznalokServiceWEB, IJogosultsagokServiceWEB
     {
         
     }

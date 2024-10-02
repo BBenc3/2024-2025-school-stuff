@@ -20,10 +20,6 @@ namespace Server.IServices
         string FelhasznaloInsert(Felhasznalo record);
 
         [OperationContract]
-        [WebInvoke (Method = "POST", RequestFormat = WebMessageFormat.Json, ResponseFormat =WebMessageFormat.Json, BodyStyle = WebMessageBodyStyle.WrappedRequest, UriTemplate="/FelhasznaloHozzaAd/")]
-        string FelhasznaloHozzaAd_Web(Felhasznalo felhasznalo);
-
-        [OperationContract]
         [WebInvoke(Method = "PUT")]
         string FelhasznaloUpdate(Felhasznalo felhasznalo);
 

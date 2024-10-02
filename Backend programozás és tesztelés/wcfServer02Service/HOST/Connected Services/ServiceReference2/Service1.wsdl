@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="http://tempuri.org/" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" name="Service1" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost:62868/Service1.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://localhost:62868/Service1.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost:62868/Service1.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/Server.Modells" />
+      <xsd:import schemaLocation="http://localhost:62868/Service1.svc?xsd=xsd3" namespace="http://schemas.datacontract.org/2004/07/Server.DTOs" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IService1_FelhasznalokLista_CS_InputMessage">
+    <wsdl:part name="parameters" element="tns:FelhasznalokLista_CS" />
+  </wsdl:message>
+  <wsdl:message name="IService1_FelhasznalokLista_CS_OutputMessage">
+    <wsdl:part name="parameters" element="tns:FelhasznalokLista_CSResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_FelhasznaloInsert_InputMessage">
+    <wsdl:part name="parameters" element="tns:FelhasznaloInsert" />
+  </wsdl:message>
+  <wsdl:message name="IService1_FelhasznaloInsert_OutputMessage">
+    <wsdl:part name="parameters" element="tns:FelhasznaloInsertResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_FelhasznaloUpdate_InputMessage">
+    <wsdl:part name="parameters" element="tns:FelhasznaloUpdate" />
+  </wsdl:message>
+  <wsdl:message name="IService1_FelhasznaloUpdate_OutputMessage">
+    <wsdl:part name="parameters" element="tns:FelhasznaloUpdateResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_FelhasznaloDelete_InputMessage">
+    <wsdl:part name="parameters" element="tns:FelhasznaloDelete" />
+  </wsdl:message>
+  <wsdl:message name="IService1_FelhasznaloDelete_OutputMessage">
+    <wsdl:part name="parameters" element="tns:FelhasznaloDeleteResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_JogosultsagokLista_InputMessage">
+    <wsdl:part name="parameters" element="tns:JogosultsagokLista" />
+  </wsdl:message>
+  <wsdl:message name="IService1_JogosultsagokLista_OutputMessage">
+    <wsdl:part name="parameters" element="tns:JogosultsagokListaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_JogosultsagHozzaAd_InputMessage">
+    <wsdl:part name="parameters" element="tns:JogosultsagHozzaAd" />
+  </wsdl:message>
+  <wsdl:message name="IService1_JogosultsagHozzaAd_OutputMessage">
+    <wsdl:part name="parameters" element="tns:JogosultsagHozzaAdResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_JogosultsagFrissit_InputMessage">
+    <wsdl:part name="parameters" element="tns:JogosultsagFrissit" />
+  </wsdl:message>
+  <wsdl:message name="IService1_JogosultsagFrissit_OutputMessage">
+    <wsdl:part name="parameters" element="tns:JogosultsagFrissitResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_JogosultsagTorol_InputMessage">
+    <wsdl:part name="parameters" element="tns:JogosultsagTorol" />
+  </wsdl:message>
+  <wsdl:message name="IService1_JogosultsagTorol_OutputMessage">
+    <wsdl:part name="parameters" element="tns:JogosultsagTorolResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_FelhasznalokLista_WEB_InputMessage">
+    <wsdl:part name="parameters" element="tns:FelhasznalokLista_WEB" />
+  </wsdl:message>
+  <wsdl:message name="IService1_FelhasznalokLista_WEB_OutputMessage">
+    <wsdl:part name="parameters" element="tns:FelhasznalokLista_WEBResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_FelhasznaloHozzaAd_WEB_InputMessage">
+    <wsdl:part name="parameters" element="tns:FelhasznaloHozzaAd_WEB" />
+  </wsdl:message>
+  <wsdl:message name="IService1_FelhasznaloHozzaAd_WEB_OutputMessage">
+    <wsdl:part name="parameters" element="tns:FelhasznaloHozzaAd_WEBResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_FelhasznaloUpdate_Web_InputMessage">
+    <wsdl:part name="parameters" element="tns:FelhasznaloUpdate_Web" />
+  </wsdl:message>
+  <wsdl:message name="IService1_FelhasznaloUpdate_Web_OutputMessage">
+    <wsdl:part name="parameters" element="tns:FelhasznaloUpdate_WebResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_FelhasznaloDelete_WEB_InputMessage">
+    <wsdl:part name="parameters" element="tns:FelhasznaloDelete_WEB" />
+  </wsdl:message>
+  <wsdl:message name="IService1_FelhasznaloDelete_WEB_OutputMessage">
+    <wsdl:part name="parameters" element="tns:FelhasznaloDelete_WEBResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_FelhasznalokNevEmailCS_InputMessage">
+    <wsdl:part name="parameters" element="tns:FelhasznalokNevEmailCS" />
+  </wsdl:message>
+  <wsdl:message name="IService1_FelhasznalokNevEmailCS_OutputMessage">
+    <wsdl:part name="parameters" element="tns:FelhasznalokNevEmailCSResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_FelhasznalokNevEmailWEB_InputMessage">
+    <wsdl:part name="parameters" element="tns:FelhasznalokNevEmailWEB" />
+  </wsdl:message>
+  <wsdl:message name="IService1_FelhasznalokNevEmailWEB_OutputMessage">
+    <wsdl:part name="parameters" element="tns:FelhasznalokNevEmailWEBResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetJogosultsagokWEB_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetJogosultsagokWEB" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetJogosultsagokWEB_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetJogosultsagokWEBResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_JogosultsagokUpdateWEB_InputMessage">
+    <wsdl:part name="parameters" element="tns:JogosultsagokUpdateWEB" />
+  </wsdl:message>
+  <wsdl:message name="IService1_JogosultsagokUpdateWEB_OutputMessage">
+    <wsdl:part name="parameters" element="tns:JogosultsagokUpdateWEBResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_JogosultsagokInsertWEB_InputMessage">
+    <wsdl:part name="parameters" element="tns:JogosultsagokInsertWEB" />
+  </wsdl:message>
+  <wsdl:message name="IService1_JogosultsagokInsertWEB_OutputMessage">
+    <wsdl:part name="parameters" element="tns:JogosultsagokInsertWEBResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_JogosultsagokDeleteWEB_InputMessage">
+    <wsdl:part name="parameters" element="tns:JogosultsagokDeleteWEB" />
+  </wsdl:message>
+  <wsdl:message name="IService1_JogosultsagokDeleteWEB_OutputMessage">
+    <wsdl:part name="parameters" element="tns:JogosultsagokDeleteWEBResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_JogosultsagNevLeiras_InputMessage">
+    <wsdl:part name="parameters" element="tns:JogosultsagNevLeiras" />
+  </wsdl:message>
+  <wsdl:message name="IService1_JogosultsagNevLeiras_OutputMessage">
+    <wsdl:part name="parameters" element="tns:JogosultsagNevLeirasResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_JogosultsagNevLeirasWEB_InputMessage">
+    <wsdl:part name="parameters" element="tns:JogosultsagNevLeirasWEB" />
+  </wsdl:message>
+  <wsdl:message name="IService1_JogosultsagNevLeirasWEB_OutputMessage">
+    <wsdl:part name="parameters" element="tns:JogosultsagNevLeirasWEBResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IService1">
+    <wsdl:operation name="FelhasznalokLista_CS">
+      <wsdl:input wsaw:Action="http://tempuri.org/IFelhasznalokService/FelhasznalokLista_CS" message="tns:IService1_FelhasznalokLista_CS_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IFelhasznalokService/FelhasznalokLista_CSResponse" message="tns:IService1_FelhasznalokLista_CS_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="FelhasznaloInsert">
+      <wsdl:input wsaw:Action="http://tempuri.org/IFelhasznalokService/FelhasznaloInsert" message="tns:IService1_FelhasznaloInsert_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IFelhasznalokService/FelhasznaloInsertResponse" message="tns:IService1_FelhasznaloInsert_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="FelhasznaloUpdate">
+      <wsdl:input wsaw:Action="http://tempuri.org/IFelhasznalokService/FelhasznaloUpdate" message="tns:IService1_FelhasznaloUpdate_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IFelhasznalokService/FelhasznaloUpdateResponse" message="tns:IService1_FelhasznaloUpdate_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="FelhasznaloDelete">
+      <wsdl:input wsaw:Action="http://tempuri.org/IFelhasznalokService/FelhasznaloDelete" message="tns:IService1_FelhasznaloDelete_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IFelhasznalokService/FelhasznaloDeleteResponse" message="tns:IService1_FelhasznaloDelete_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="JogosultsagokLista">
+      <wsdl:input wsaw:Action="http://tempuri.org/IJogosultsagokService/JogosultsagokLista" message="tns:IService1_JogosultsagokLista_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IJogosultsagokService/JogosultsagokListaResponse" message="tns:IService1_JogosultsagokLista_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="JogosultsagHozzaAd">
+      <wsdl:input wsaw:Action="http://tempuri.org/IJogosultsagokService/JogosultsagHozzaAd" message="tns:IService1_JogosultsagHozzaAd_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IJogosultsagokService/JogosultsagHozzaAdResponse" message="tns:IService1_JogosultsagHozzaAd_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="JogosultsagFrissit">
+      <wsdl:input wsaw:Action="http://tempuri.org/IJogosultsagokService/JogosultsagFrissit" message="tns:IService1_JogosultsagFrissit_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IJogosultsagokService/JogosultsagFrissitResponse" message="tns:IService1_JogosultsagFrissit_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="JogosultsagTorol">
+      <wsdl:input wsaw:Action="http://tempuri.org/IJogosultsagokService/JogosultsagTorol" message="tns:IService1_JogosultsagTorol_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IJogosultsagokService/JogosultsagTorolResponse" message="tns:IService1_JogosultsagTorol_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="FelhasznalokLista_WEB">
+      <wsdl:input wsaw:Action="http://tempuri.org/IFelhasznalokServiceWEB/FelhasznalokLista_WEB" message="tns:IService1_FelhasznalokLista_WEB_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IFelhasznalokServiceWEB/FelhasznalokLista_WEBResponse" message="tns:IService1_FelhasznalokLista_WEB_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="FelhasznaloHozzaAd_WEB">
+      <wsdl:input wsaw:Action="http://tempuri.org/IFelhasznalokServiceWEB/FelhasznaloHozzaAd_WEB" message="tns:IService1_FelhasznaloHozzaAd_WEB_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IFelhasznalokServiceWEB/FelhasznaloHozzaAd_WEBResponse" message="tns:IService1_FelhasznaloHozzaAd_WEB_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="FelhasznaloUpdate_Web">
+      <wsdl:input wsaw:Action="http://tempuri.org/IFelhasznalokServiceWEB/FelhasznaloUpdate_Web" message="tns:IService1_FelhasznaloUpdate_Web_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IFelhasznalokServiceWEB/FelhasznaloUpdate_WebResponse" message="tns:IService1_FelhasznaloUpdate_Web_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="FelhasznaloDelete_WEB">
+      <wsdl:input wsaw:Action="http://tempuri.org/IFelhasznalokServiceWEB/FelhasznaloDelete_WEB" message="tns:IService1_FelhasznaloDelete_WEB_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IFelhasznalokServiceWEB/FelhasznaloDelete_WEBResponse" message="tns:IService1_FelhasznaloDelete_WEB_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="FelhasznalokNevEmailCS">
+      <wsdl:input wsaw:Action="http://tempuri.org/IFelhasznalokServiceWEB/FelhasznalokNevEmailCS" message="tns:IService1_FelhasznalokNevEmailCS_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IFelhasznalokServiceWEB/FelhasznalokNevEmailCSResponse" message="tns:IService1_FelhasznalokNevEmailCS_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="FelhasznalokNevEmailWEB">
+      <wsdl:input wsaw:Action="http://tempuri.org/IFelhasznalokServiceWEB/FelhasznalokNevEmailWEB" message="tns:IService1_FelhasznalokNevEmailWEB_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IFelhasznalokServiceWEB/FelhasznalokNevEmailWEBResponse" message="tns:IService1_FelhasznalokNevEmailWEB_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetJogosultsagokWEB">
+      <wsdl:input wsaw:Action="http://tempuri.org/IJogosultsagokServiceWEB/GetJogosultsagokWEB" message="tns:IService1_GetJogosultsagokWEB_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IJogosultsagokServiceWEB/GetJogosultsagokWEBResponse" message="tns:IService1_GetJogosultsagokWEB_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="JogosultsagokUpdateWEB">
+      <wsdl:input wsaw:Action="http://tempuri.org/IJogosultsagokServiceWEB/JogosultsagokUpdateWEB" message="tns:IService1_JogosultsagokUpdateWEB_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IJogosultsagokServiceWEB/JogosultsagokUpdateWEBResponse" message="tns:IService1_JogosultsagokUpdateWEB_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="JogosultsagokInsertWEB">
+      <wsdl:input wsaw:Action="http://tempuri.org/IJogosultsagokServiceWEB/JogosultsagokInsertWEB" message="tns:IService1_JogosultsagokInsertWEB_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IJogosultsagokServiceWEB/JogosultsagokInsertWEBResponse" message="tns:IService1_JogosultsagokInsertWEB_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="JogosultsagokDeleteWEB">
+      <wsdl:input wsaw:Action="http://tempuri.org/IJogosultsagokServiceWEB/JogosultsagokDeleteWEB" message="tns:IService1_JogosultsagokDeleteWEB_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IJogosultsagokServiceWEB/JogosultsagokDeleteWEBResponse" message="tns:IService1_JogosultsagokDeleteWEB_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="JogosultsagNevLeiras">
+      <wsdl:input wsaw:Action="http://tempuri.org/IJogosultsagokServiceWEB/JogosultsagNevLeiras" message="tns:IService1_JogosultsagNevLeiras_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IJogosultsagokServiceWEB/JogosultsagNevLeirasResponse" message="tns:IService1_JogosultsagNevLeiras_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="JogosultsagNevLeirasWEB">
+      <wsdl:input wsaw:Action="http://tempuri.org/IJogosultsagokServiceWEB/JogosultsagNevLeirasWEB" message="tns:IService1_JogosultsagNevLeirasWEB_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IJogosultsagokServiceWEB/JogosultsagNevLeirasWEBResponse" message="tns:IService1_JogosultsagNevLeirasWEB_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:service name="Service1" />
+</wsdl:definitions>

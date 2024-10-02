@@ -1,0 +1,8 @@
+C:\Users\bbence\Documents\GitHub\2024-2025-school-stuff\Asztali és mobil alkalmazások fejlesztése és tesztelése\Osztályok0930\Osztályok0930\bin\Debug\Osztályok0930.exe.config
+C:\Users\bbence\Documents\GitHub\2024-2025-school-stuff\Asztali és mobil alkalmazások fejlesztése és tesztelése\Osztályok0930\Osztályok0930\bin\Debug\Osztályok0930.exe
+C:\Users\bbence\Documents\GitHub\2024-2025-school-stuff\Asztali és mobil alkalmazások fejlesztése és tesztelése\Osztályok0930\Osztályok0930\bin\Debug\Osztályok0930.pdb
+C:\Users\bbence\Documents\GitHub\2024-2025-school-stuff\Asztali és mobil alkalmazások fejlesztése és tesztelése\Osztályok0930\Osztályok0930\obj\Debug\Osztályok0930.csproj.AssemblyReference.cache
+C:\Users\bbence\Documents\GitHub\2024-2025-school-stuff\Asztali és mobil alkalmazások fejlesztése és tesztelése\Osztályok0930\Osztályok0930\obj\Debug\Osztályok0930.csproj.SuggestedBindingRedirects.cache
+C:\Users\bbence\Documents\GitHub\2024-2025-school-stuff\Asztali és mobil alkalmazások fejlesztése és tesztelése\Osztályok0930\Osztályok0930\obj\Debug\Osztályok0930.csproj.CoreCompileInputs.cache
+C:\Users\bbence\Documents\GitHub\2024-2025-school-stuff\Asztali és mobil alkalmazások fejlesztése és tesztelése\Osztályok0930\Osztályok0930\obj\Debug\Osztályok0930.exe
+C:\Users\bbence\Documents\GitHub\2024-2025-school-stuff\Asztali és mobil alkalmazások fejlesztése és tesztelése\Osztályok0930\Osztályok0930\obj\Debug\Osztályok0930.pdb
