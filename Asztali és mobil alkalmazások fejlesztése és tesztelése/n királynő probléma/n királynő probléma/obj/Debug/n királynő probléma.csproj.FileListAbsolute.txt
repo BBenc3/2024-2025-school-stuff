@@ -1,0 +1,8 @@
+C:\Users\bbence\Documents\GitHub\2024-2025-school-stuff\Asztali és mobil alkalmazások fejlesztése és tesztelése\n királynő probléma\n királynő probléma\bin\Debug\n királynő probléma.exe.config
+C:\Users\bbence\Documents\GitHub\2024-2025-school-stuff\Asztali és mobil alkalmazások fejlesztése és tesztelése\n királynő probléma\n királynő probléma\bin\Debug\n királynő probléma.exe
+C:\Users\bbence\Documents\GitHub\2024-2025-school-stuff\Asztali és mobil alkalmazások fejlesztése és tesztelése\n királynő probléma\n királynő probléma\bin\Debug\n királynő probléma.pdb
+C:\Users\bbence\Documents\GitHub\2024-2025-school-stuff\Asztali és mobil alkalmazások fejlesztése és tesztelése\n királynő probléma\n királynő probléma\obj\Debug\n királynő probléma.csproj.AssemblyReference.cache
+C:\Users\bbence\Documents\GitHub\2024-2025-school-stuff\Asztali és mobil alkalmazások fejlesztése és tesztelése\n királynő probléma\n királynő probléma\obj\Debug\n királynő probléma.csproj.SuggestedBindingRedirects.cache
+C:\Users\bbence\Documents\GitHub\2024-2025-school-stuff\Asztali és mobil alkalmazások fejlesztése és tesztelése\n királynő probléma\n királynő probléma\obj\Debug\n királynő probléma.csproj.CoreCompileInputs.cache
+C:\Users\bbence\Documents\GitHub\2024-2025-school-stuff\Asztali és mobil alkalmazások fejlesztése és tesztelése\n királynő probléma\n királynő probléma\obj\Debug\n királynő probléma.exe
+C:\Users\bbence\Documents\GitHub\2024-2025-school-stuff\Asztali és mobil alkalmazások fejlesztése és tesztelése\n királynő probléma\n királynő probléma\obj\Debug\n királynő probléma.pdb
